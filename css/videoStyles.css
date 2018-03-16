@@ -1,0 +1,60 @@
+#iframe_YTP_1521153609547 {
+    position: absolute;
+    z-index: 0;
+    width: 2127px;
+    height: 1197px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    opacity: 1;
+    -webkit-user-select: none;
+    margin-top: -358px;
+    margin-left: 0px;
+    transition-property: opacity;
+    transition-duration: 1000ms;
+}
+
+/*@media all {
+    .yt-bg-player iframe {
+        max-width: inherit;
+    }
+}
+
+@media all {
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}*/
+
+iframe#iframe_YTP_1521153609547.playerBox1 {
+border-top-width: 0px;
+border-right-width: 0px;
+border-bottom-width: 0px;
+border-left-width: 0px;
+width: 640px;
+height: 360px;
+
+}
+
+
+iframe {
+border-top-width: 2px;
+border-right-width: 2px;
+border-bottom-width: 2px;
+border-left-width: 2px;
+border-top-style: inset;
+border-right-style: inset;
+border-bottom-style: inset;
+border-left-style: inset;
+border-top-color: initial;
+border-right-color: initial;
+border-bottom-color: initial;
+border-left-color: initial;
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+}
