@@ -187,6 +187,49 @@ p {
     border-right: 585px outset transparent;
     position: relative;
 }
+
+.triangle-amarillo {
+    margin: 0 auto;
+    text-align:center;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #fece1a;
+    border-left: 585px outset transparent;
+    border-right: 585px outset transparent;
+    position: relative;
+}
+.triangle-verdeAgua {
+    margin: 0 auto;
+    text-align:center;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #00968a;
+    border-left: 585px outset transparent;
+    border-right: 585px outset transparent;
+    position: relative;
+}
+
+.triangle-crimson {
+    margin: 0 auto;
+    text-align:center;
+    width: 0;
+    height: 0;
+    border-top: 30px solid crimson;
+    border-left: 585px outset transparent;
+    border-right: 585px outset transparent;
+    position: relative;
+}
+
+.triangle-blanco {
+    margin: 0 auto;
+    text-align:center;
+    width: 0;
+    height: 0;
+    border-top: 30px solid #fff;
+    border-left: 585px outset transparent;
+    border-right: 585px outset transparent;
+    position: relative;
+}
 /*
 2.1 Animations
 **********/
@@ -367,6 +410,23 @@ p {
 .primary-section {
     background:#181A1C;
 }
+
+.primary-section-verdeAgua {
+    background:#00968a;
+}
+
+.primary-section-crimson {
+    background:crimson;
+}
+
+.primary-section-amarillo {
+    background:#fece1a;
+}
+
+.primary-section-blanco {
+    background:#fff;
+}
+
 .primary-section .triangle {
     border-top: 40px solid #FECE1A;
 }
@@ -391,8 +451,22 @@ p {
 /* Third section use bacground image */
 .third-section {
     padding-bottom: 70px;
-    background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #FECE1A;
+    background: #181A1C url(../images/piruBackground.png) no-repeat center;
+    background-size: 100%;
+    border-top:0px solid #FECE1A;
+
+    /*-webkit-box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,0.67);
+    -moz-box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,0.67);
+    box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,0.67);*/
+
+    /*-webkit-box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,0.91);
+    -moz-box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,0.91);
+    box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,0.91);*/
+    -webkit-box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,1);
+    -moz-box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,1);
+    box-shadow: inset 10px 10px 300px 200px rgba(0,0,0,1);
+
+
 }
 .third-section .container {
     padding-top:20px;
@@ -497,7 +571,7 @@ p {
     color:#fff;
 }
 .team .thumbnail .mask {
-    background: #FECE1A;
+    background: crimson;
 }
 .team .thumbnail .mask h2 {
     margin-top:20%;
