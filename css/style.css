@@ -389,6 +389,11 @@ p {
  .section {
     padding-bottom: 50px;
 }
+
+.section-noPadding {
+   padding-bottom: 0px;
+}
+
 .section .container {
     padding-top:50px;
 }
